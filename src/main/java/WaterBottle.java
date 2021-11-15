@@ -13,4 +13,18 @@ public class WaterBottle {
         this.volume = newVolume;
     }
 
+    public int drink(){
+        int currentVolume = this.volume;
+        int newVolume = currentVolume - 10;
+        setVolume(newVolume);
+        return newVolume;
+    }
+
+    public void empty() {
+        setVolume(0);
+    }
+
+    public void fillBottle() {
+        setVolume(100);
+    }
 }
