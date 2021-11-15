@@ -8,5 +8,8 @@ public class Calculator {
         return answer;
     }
 
-
+    public int subtract(int firstNum, int secondNum) {
+        int answer = firstNum - secondNum;
+        return answer;
+    }
 }

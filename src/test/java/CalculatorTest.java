@@ -16,4 +16,9 @@ public class CalculatorTest {
     public void canAddNumbers(){
         assertEquals(3, calculator.add(1,2));
     }
+
+    @Test
+    public void canSubtractNumbers(){
+        assertEquals(5, calculator.subtract(12, 7));
+    }
 }
